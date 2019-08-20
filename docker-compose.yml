@@ -1,0 +1,6 @@
+version: '3'
+services:
+  testnginx:
+    build: .
+    ports:
+      - '8080:80'
