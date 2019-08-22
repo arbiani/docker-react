@@ -7,7 +7,7 @@ before_install:
 
 script:
   - docker run arbiani/docker-react npm run test -- --coverage
-  
+
 
 deploy:
   provider: elastisbeanstalk
